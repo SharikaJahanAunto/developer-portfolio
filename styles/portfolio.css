@@ -6,16 +6,30 @@
 .text-primary {
     color: #FD6E0A;
 }
-
+.btn{
+    display: flex;
+    gap: 24px;
+}
 .btn-primary {
+    /* text-align: center; */
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 5px 35px;
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+}
+.btn-secondary{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 20;
+    padding: 5px 35px;
+    height: 64px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
 }
 
 .header {
